@@ -1,0 +1,90 @@
+body {
+    text-align:justify;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(2, 0, 34);
+    color: rgb(190, 220, 220);
+    font-family:'Times New Roman', Times, serif;
+    margin:0%;
+    p {
+        color: cadetblue;
+
+    }
+    h1 {
+        font-size:x-large;
+    }
+    h2 {
+        text-align: center;
+        color: cadetblue;
+
+}
+header {
+    background-color:rgb(230, 225, 220);
+    color: rgb(21, 21, 103);
+    text-align:center;
+    justify-content: center;
+    align-items: center;
+    padding: 0%;
+    font-weight: 300;    
+}
+footer {
+    background-color: rgb(230, 225, 220);
+    text-decoration-color: rgb(2, 0, 34);
+    text-align: center;
+    font-size: larger;
+}
+}
+:-moz-any-link {
+   font-style: oblique;
+   color: aliceblue;
+}
+
+
+.picture-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.profile-picture {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid cadetblue;
+}
+
+#about {
+    text-align: center;
+    background-color: rgb(51, 67, 88);
+    padding: 30px;
+    margin: 20px auto;
+    max-width: 800px;
+    border-radius: 15px;
+}
+
+#skills {
+    background-color:rgb(51, 67, 88);
+    padding: 30px;
+    margin: 20px auto;
+    max-width: 800px;
+    border-radius: 15px;
+}
+
+#contacts {
+    text-align: center;
+    background-color:rgb(51, 67, 88);
+    padding: 30px;
+    margin: 20px auto;
+    max-width: 800px;
+    border-radius: 15px;
+}
+
+#projects {
+    text-align: center;
+    background-color: rgb(51, 67, 88);
+    padding: 30px;
+    margin: 20px auto;
+    max-width: 800px;
+    border-radius: 15px;
+}
